@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twentyfifteen Burkionline Theme\n"
+"POT-Creation-Date: 2015-02-21 13:27:00+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Christophe Burki <christophe.burki@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: fr_FR\n"
+
+msgid "Powered by %s"
+msgstr "Propulsé par %s"
+
+msgid "Directed by %s - All rights reserved"
+msgstr "Réalisé par %s - Tous droits réservés"
+
+#. translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:158
+msgctxt "Ubuntu font: on or off"
+msgid "on"
+msgstr ""

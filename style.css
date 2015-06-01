@@ -1,0 +1,268 @@
+/*
+Theme Name: Twenty Fifteen
+Theme URI: https://wordpress.org/themes/twentyfifteen
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+@import url("../twentyfifteen/style.css");
+
+
+/**
+ * Burkionline customization
+ */
+
+body {
+	font-family: "Ubuntu", sans-serif;
+}
+
+.site-logo {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.site-logo img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-info div.copyright {
+    float: none;
+}
+
+.site-info a {
+    float: none;
+}
+
+.site-header {
+    margin: 10% 0;
+    padding: 10% 10%;
+}
+
+.main-navigation {
+    margin: 0 10% 20%
+}
+
+.widget {
+    padding: 0 10%;
+}
+
+.entry-content h2 {
+    margin-bottom: 0.1em;
+    border-left: 0.2em solid #fe6601;
+    padding-left: 0.5em;
+    background-color: #f9f9f9;
+}
+
+.entry-content h2 > a {
+    border-bottom: 0px none;
+}
+
+.hentry {
+    padding-top: 0em;
+}
+
+article.post header {
+    border-top: 2px solid #fe6601;
+    padding-top: 0.5em;
+}
+
+.post-meta .post-meta-primary {
+    float: left;
+    margin-bottom: 0.6em;
+}
+
+.post-meta .post-add-meta-secondary {
+    float: right;
+    margin-bottom: 0.6em;
+}
+
+.post-content {
+    clear: both;
+    text-align: justify;
+}
+
+.widget-title {
+    border-bottom: 1px solid #fe6601;
+    padding-bottom: 0.6em;
+}
+
+.widget.Social_Widget .widget-title {
+    display: none;
+}
+
+/**
+ * Mobile Large 620px
+ */
+
+@media screen and (min-width: 38.75em) {
+
+    .page-header {
+		border-left: 0.5em solid #fe6601;
+    }
+}
+
+
+/**
+ * Tablet Small 740px
+ */
+
+@media screen and (min-width: 46.25em) {
+
+    .site-info div.copyright {
+        float: left;
+    }
+
+    .site-info a {
+        float: right;
+    }
+}
+
+
+/**
+ * Tablet Large 880px
+ */
+
+@media screen and (min-width: 55em) {
+}
+
+/**
+ * Desktop Small 955px
+ */
+
+@media screen and (min-width: 59.6875em) {
+
+    .page-header {
+		border-left: 0.5em solid #fe6601;
+    }
+}
+
+/**
+ * Desktop Medium 1100px
+ */
+
+@media screen and (min-width: 68.75em) {
+
+    .page-header {
+		border-left: 0.5em solid #fe6601;
+    }
+}
+
+
+/**
+ * Desktop Large 1240px
+ */
+
+@media screen and (min-width: 77.5em) {
+
+    .page-header {
+		border-left: 0.5em solid #fe6601;
+    }
+}
+
+
+/**
+ * Desktop X-Large 1403px
+ */
+
+@media screen and (min-width: 87.6875em) {
+    body {
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+
+    .page-header {
+		border-left: 0.5em solid #fe6601;
+    }
+
+	.entry-content h1,
+	.entry-summary h1,
+	.page-content h1,
+	.comment-content h1 {
+		font-size: 32px;
+		font-size: 3.2rem;
+	}
+
+	.entry-content h2,
+	.entry-summary h2,
+	.page-content h2,
+	.comment-content h2 {
+		font-size: 24px;
+		font-size: 2.4rem;
+	}
+
+	.entry-content h3,
+	.entry-summary h3,
+	.page-content h3,
+	.comment-content h3 {
+		font-size: 22px;
+		font-size: 2.2rem;
+	}
+
+	.entry-content h4,
+	.entry-summary h4,
+	.page-content h4,
+	.comment-content h4 {
+		font-size: 20px;
+		font-size: 2.0rem;
+	}
+
+	.entry-content h5,
+	.entry-content h6,
+	.entry-summary h5,
+	.entry-summary h6,
+	.page-content h5,
+	.page-content h6,
+	.comment-content h5,
+	.comment-content h6 {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+
+    .entry-title {
+        font-size: 32px;
+        font-size: 3.2rem;
+    }
+}
+
+
+/**
+ * Album Cover Image
+ */
+
+img.bo-album-cover {
+    border: 1px solid #e6e6e6;
+    padding: 1px;
+}
+
+img.bo-album-cover:hover {
+    border-color: #fe6601;
+    border-width: 2px;
+}
+
+
+/**
+ * Google Plus Express
+ */
+
+img.bo-pe2-image {
+    margin: 2px !important;
+}
+
+img.bo-pe2-image:hover {
+    border-color: #fe6601;
+    border-width: 2px;
+    margin: 1px !important;
+}
